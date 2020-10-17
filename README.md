@@ -4,7 +4,7 @@ Proyects Javascript  and practice with anime.js
 
 [Links](https://animejs.com/)
 
-#Javascript
+# javascript_code (previous)
 
 document.addEventListener(`DOMContentLoaded`, () => {
 anime({
