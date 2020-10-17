@@ -46,8 +46,8 @@ nav {
 nav a {
   color: #000000;
   text-decoration: none;
-  font-weight: 30rem;
-  min-width: 55rem;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -62,5 +62,66 @@ nav a:hover {
   position: absolute;
   top: 5rem;
   left: 10rem;
+  font-size: 2.2rem;
+}
+
+.page-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100vh;
+  background-image: url(../img/aud2.jpg);
+  background-size: cover;
+  /** background-repeat: no-repeat **/
+  background-position: center;
+  z-index: -1;
+}
+
+.right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.right h1 {
+  color: #fa0000;
+  font-family: sans-serif;
+  font-size: 10rem;
+  font-weight: 800;
+  letter-spacing: .3rem;
+  margin-bottom: 5rem;
+}
+
+.right p {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 21vh;
+  left: -5rem;
+}
+
+.article-wrapper {
+  margin-left: 20rem;
+  padding-right: 12rem;
 }
 /*# sourceMappingURL=style.css.map */
