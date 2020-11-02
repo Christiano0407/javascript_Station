@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/javascript_Station/issues"
   },
-  "homepage": "https://github.com/Christiano0407/javascript_Station#readme"
+  "homepage": "https://github.com/Christiano0407/javascript_Station#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
