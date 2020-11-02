@@ -5,7 +5,8 @@
   "main": "src2/js/index.js",
   "scripts": {
     "callback": "node src2/js/index.js",
-    "promise" : "node src2/promise/index.js"
+    "promise" : "node src2/promise/index.js",
+    "promise:challenge": "node src2/promise/challenge.js"
   },
   "repository": {
     "type": "git",
