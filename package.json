@@ -4,7 +4,8 @@
   "description": "proyect",
   "main": "src2/js/index.js",
   "scripts": {
-    "callback": "node src2/js/index.js"
+    "callback": "node src2/js/index.js",
+    "promise" : "node src2/promise/index.js"
   },
   "repository": {
     "type": "git",
