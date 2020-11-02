@@ -1,4 +1,5 @@
 # javascript_Station
+<<<<<<< HEAD
 Proyects Javascript  and practice with anime.js 
 #Links
 
@@ -26,3 +27,6 @@ anime({
     },
     opacity:[0, 1],
 });
+=======
+Proyects and practice with Javascript
+>>>>>>> cfb27fadf95e38b7c292d1015e0a0a78f02ef203
