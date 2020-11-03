@@ -7,7 +7,8 @@
     "callback": "node src2/js/index.js",
     "promise" : "node src2/promise/index.js",
     "promise:challenge": "node src2/promise/challenge.js",
-    "async": "node src2/async/index.js"
+    "async": "node src2/async/index.js",
+    "async:challengeTwo": "node src2/async/challengeTwo.js" 
   },
   "repository": {
     "type": "git",
