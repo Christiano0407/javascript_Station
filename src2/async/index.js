@@ -14,3 +14,17 @@ const doSomething = async () => {
 console.log(`Before`);
 doSomething();
 console.log(`After`);
+ 
+//capturar los errores en Async and Await
+const anotherFunction = async () => {
+    try {
+        const something = await doSomethingAsync();
+        console.log(something);
+    }catch(error) {
+        console.error(error)
+    }
+}
+
+console.log(`Before2`);
+anotherFunction();
+console.log(`Before2`);
